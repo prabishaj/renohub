@@ -1,0 +1,108 @@
+/* new css */
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+/** dark theme start ***/
+body {
+	margin: 0;
+	font-family: Montserrat, sans-serif;
+}
+code {
+	font-family: Montserrat, sans-serif;
+}
+h1 {
+	font-family: Montserrat, sans-serif;
+}
+h2 {
+	font-family: Montserrat, sans-serif;
+}
+h3 {
+	font-family: Montserrat, sans-serif;
+}
+h4 {
+	font-family: Montserrat, sans-serif;
+}
+h5 {
+	font-family: Montserrat, sans-serif;
+}
+h6 {
+	font-family: Montserrat, sans-serif;
+}
+.btn-close {
+	&:focus {
+		box-shadow: inherit;
+	}
+}
+input.form-control::placeholder {
+    color: #ccc;
+  }
+input.form-control::-webkit-input-placeholder {
+	color: #ccc;
+}
+
+input.form-control::-moz-placeholder {
+	color: #ccc;
+}
+
+input.form-control:-ms-input-placeholder {
+	color: #ccc;
+}
+
+input.form-control:-moz-placeholder {
+	color: #ccc;
+}
+.btn-orange {
+	color: #fff;
+	background-color: #F56735;
+	border-color: #F56735;
+	margin: 0 auto;
+	font-size: 16px;
+	&:hover {
+		color: #fff;
+	    background-color: #ff9516;
+    border-color: #ff9516;
+	}
+}
+.btn-grey {
+	color: #333;
+	background-color: #e9ecef;
+	border-color: #ced4da;
+	margin: 0 auto;
+	font-size: 16px;
+	&:hover {
+		color: #333;
+	}
+}
+.form-check-input {
+	&:checked {
+		background-color: #F56735;
+		border-color: #F56735;
+	}
+	&:focus {
+		border-color: #0c0c0c40;
+		outline: 0;
+		box-shadow: inherit;
+	}
+	&:checked[type=radio] {
+		&:focus {
+			border-color: #F56735;
+		}
+	}
+	cursor: pointer;
+	border: 2px solid #0c0c0c40;
+}
+.form-check-input[type=checkbox] {
+	border-radius: 2px;
+}
+.card {
+	border: 0 solid #dedede;
+	border-radius: 8px;
+	box-shadow: 0px 2px 6px #00000029;
+}
+.main-panel.darkmode {
+	background: #333333;
+	color: white;
+}
+.main-panel.topmenu {
+	margin-left: 0px;
+}

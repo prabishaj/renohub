@@ -1,0 +1,163 @@
+/* Dashboard css start */
+
+body {
+  font-family: Montserrat,sans-serif!important;
+	
+}
+h1, h2, h3, h4, h5, h6, 
+.h1, .h2, .h3, .h4, .h5, .h6
+{
+  font-family: Montserrat,sans-serif!important;
+	color: #444;
+}
+
+* {
+	&:focus {
+		outline: inherit;
+	}
+	box-sizing: border-box;
+}
+
+a {
+	color: #149ddd;
+	text-decoration: none;
+	&:hover {
+		color: #37b3ed;
+		text-decoration: none;
+	}
+}
+.btn-close {
+	&:focus {
+		box-shadow: inherit !important;
+	}
+}
+.modal {
+	.modal-content {
+		border-radius: 10px;
+	}
+}
+.form-control {
+	&:focus {
+		box-shadow: none !important;
+	}
+}
+.btn-check {
+	&:focus {
+		+ {
+			.btn {
+				box-shadow: none !important;
+				outline: 0;
+				box-shadow: none;
+			}
+		}
+	}
+}
+.btn {
+	&:focus {
+		box-shadow: none !important;
+		outline: 0;
+		box-shadow: none;
+	}
+	background-color: #ddd;
+}
+  
+  button:focus {
+    outline: inherit;
+  }
+  
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  a {
+    &:active,
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: $body-txt;
+    }
+  }
+  
+  .errclass {
+    border: 1px solid !important;
+    border-color: red !important;
+  }
+  
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-family: Montserrat,sans-serif!important;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  input::-ms-clear,
+  input::-ms-reveal {
+    display: none;
+  }
+  
+  input[type="text"]::-ms-clear {
+    display: none;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .form-control input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: $gray-color;
+  }
+  
+  .form-control input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: $gray-color;
+  }
+  
+  .form-control input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: $gray-color;
+  }
+  
+  .form-control input:-moz-placeholder {
+    /* Firefox 18- */
+    color: $gray-color;
+  }
+  
+  input:focus {
+    outline: inherit;
+  }
+  
+  select:focus {
+    outline: inherit;
+  }
+  .btn.focus, .btn:focus {
+    outline: inherit;
+    box-shadow: inherit;
+}

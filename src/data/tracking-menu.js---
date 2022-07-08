@@ -1,0 +1,51 @@
+import {useSelector}  from 'react-redux';
+import {
+  faWindowMaximize,
+  faArrowCircleRight,
+  faThList,
+  faNetworkWired,
+  faAngleDown,
+} from "@fortawesome/pro-light-svg-icons";
+import homeIcon from "../assets/images/icons/home-icon.svg"; 
+import projectIcon from "../assets/images/icons/projects-icon.svg";
+import approvalIcon from "../assets/images/icons/approval-icon.svg";
+import calenderIcon from "../assets/images/icons/calender-icon.svg";
+
+// const allProjects = useSelector((state) => state.Tracking.projects);
+// console.log(allProjects);
+
+
+export const AdminSidebar = [
+  {
+    name: "Home",
+    type: null,
+    leftIcon: homeIcon,
+    rightIcon: "",
+    path: "/home",
+    child: null,
+  },
+  {
+    name: "Tracking",
+    type: null,
+    leftIcon: projectIcon,
+    rightIcon: "",
+    path: "/tracking",
+    child: null,
+  },
+  {
+    name: "Approval",
+    type: null,
+    leftIcon: approvalIcon,
+    rightIcon: "",
+    path: "/approval",
+    child: null,
+  },
+  // {
+  //   name: "Calender",
+  //   type: null,
+  //   leftIcon: calenderIcon,
+  //   rightIcon: "",
+  //   path: "/calender",
+  //   child: null,
+  // }
+];

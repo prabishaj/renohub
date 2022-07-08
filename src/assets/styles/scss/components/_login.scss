@@ -1,0 +1,111 @@
+.logoimg {
+    max-height: 50px;
+}
+.formScreenUser
+{
+    color: #111247;
+    font-weight: 600;
+    
+}
+.formScreenTitle{
+    color: #555;
+    font-weight: 600;
+}
+.forgotLink
+{
+    color: #F56735;
+    font-size: 14px;
+    font-weight: 500;
+}
+.forgotLink:hover, .forgotLink:active, .forgotLink:focus
+{
+    color: #ff9516;
+}
+
+.loginFormScreens .form-control {
+    padding: 10px 20px;
+    font-size: 15px;
+}
+form label {
+    color: #999;
+}
+.singleSlide {
+    margin: 0;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    /* min-height: 628px; */
+    height: 628px;
+    position: relative;
+}
+.slide1 {
+    background-image: url(/./src/assets/images/slide1.svg)
+}
+.slide2 {
+   background-image: url(/./src/assets/images/slide2.svg)
+}
+.slideOverlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #4b58614d;
+}
+
+.loginScreenSlides .slick-dots {    
+    position: absolute;
+    bottom: 56px;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+    // right: -40%;
+    bottom: 16px;
+}
+
+.loginScreenSlides .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 11px;
+    height: 11px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    // background: #a5abb1;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.loginScreenSlides .slick-dots li.slick-active button {
+    
+    background: #f56735;
+}
+.loginScreenSlides .slick-dots li button:before {
+    color: transparent !important;
+}
+.loginScreenSlides.slick-dots li.slick-active button:before {
+    color: transparent !important;
+}
+// input.form-control::placeholder {
+//     color: #ccc;
+//   }
+// input.form-control::-webkit-input-placeholder {
+// 	color: #ccc;
+// }
+
+// input.form-control::-moz-placeholder {
+// 	color: #ccc;
+// }
+
+// input.form-control:-ms-input-placeholder {
+// 	color: #ccc;
+// }
+
+// input.form-control:-moz-placeholder {
+// 	color: #ccc;
+// }

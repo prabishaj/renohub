@@ -1,0 +1,179 @@
+@mixin themable( $theme-name, $container-bg, $header-text, $left-bg, $left-icon, $left-text, $header-icon, $section-heading, $singlePageTitle, $dashboardCardBg, $loanSvgIcon, $loanSvgIconComplete) {
+    .#{$theme-name} {
+        .body.light,
+        .body.dark {
+            //   background-color:  $container-bg;
+        }
+        nav.topNav {
+            background-color: $container-bg;
+        }
+        .pagesMain {
+            // background-color:  $container-bg;
+        }
+        .sideBar {
+            background: $left-bg;
+            .profileName {
+                color: $left-text;
+            }
+            .nav-menu {
+                a {
+                    color: $left-text;
+                    svg {
+                        #Group_2 {
+                            g {
+                                stroke: $left-text;
+                            }
+                        }
+                        #Group_3 {
+                            path {
+                                stroke: $left-text;
+                            }
+                        }
+                        #Group_4 {
+                            path {
+                                stroke: $left-text;
+                            }
+                        }
+                        #Group_13 {
+                            path {
+                                fill: $left-text;
+                            }
+                        }
+                        #Group_14 {
+                            path {
+                                fill: $left-text;
+                            }
+                        }
+                        #Group_1 {
+                            path {
+                                fill: $left-text;
+                            }
+                        }
+                        // #Group_1 {
+                        //     path {
+                        //         fill: $left-icon;
+                        //     }
+                        // }
+                    }
+                    &:hover,
+                    &.active,
+                    &:focus {
+                        svg {
+                            #Group_2 {
+                                g {
+                                    stroke: $left-icon;
+                                }
+                            }
+                            #Group_3 {
+                                path {
+                                    stroke: $left-icon;
+                                }
+                            }
+                            #Group_4 {
+                                path {
+                                    stroke: $left-icon;
+                                }
+                            }
+                            #Group_13 {
+                                path {
+                                    fill: $left-icon;
+                                }
+                            }
+                            #Group_14 {
+                                path {
+                                    fill: $left-icon;
+                                }
+                            }
+                            #Group_1 {
+                                path {
+                                    fill: $left-icon;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .topNav {
+            .pageHeading {
+                color: $header-text;
+            }
+            .navLinkInnr {
+                path {
+                    fill: $header-icon;
+                }
+            }
+            #Group_11 {
+                g#Rectangle_42 {
+                    stroke: $header-icon;
+                }
+                path#Path_25 {
+                    stroke: $header-icon;
+                }
+            }
+            #_20_setting {
+                path#Path_38 {
+                    fill: $header-icon;
+                }
+                path#Path_39 {
+                    fill: $header-icon;
+                }
+            }
+        }
+        .sectionHead {
+            color: $section-heading;
+        }
+        .singlePageTitle {
+            color: $singlePageTitle;
+        }
+        .singlePageSummry {
+            color: $singlePageTitle;
+        }
+        .step-icon {
+            svg {
+                fill: $loanSvgIcon;
+            }
+        }
+        .loandealProcess .bsWizard .bsWizardStep.complete .stepText .bsWizardStepnum span {
+            color: $loanSvgIconComplete;
+        }
+        .loandealProcess .bsWizard .bsWizardStep.complete .step-icon svg {
+            fill: $loanSvgIconComplete;
+        }
+        .loandealProcess .bsWizard .bsWizardStep .step-icon svg {
+            fill: $loanSvgIcon;
+        }
+        .loandealProcess .bsWizard .bsWizardStep .stepText .bsWizardStepnum span {
+            color: $loanSvgIcon;
+        }
+        .themecolor {
+            color: $singlePageTitle;
+        }
+        .myDashboardPage .card.cardBg {
+            background-color: $dashboardCardBg;
+        }
+        .propTypinfo span,
+        .propList span,
+        .propTypTxt {
+            color: $singlePageTitle;
+        }
+        .proprtyDisclmrAcordn .accordion-body {
+            color: $singlePageTitle;
+        }
+    }
+}
+
+// $theme-name,
+//   $container-bg,
+//   $header-text,
+//   $left-bg,
+//   $left-icon,
+//   $left-text,
+//   $header-icon,
+//   $section-heading,
+//   $singlePageTitle,
+//   $dashboardCardBg,
+//   $loanSvgIcon,
+//   loanSvgIconComplete
+@include themable(light, #F8F9F9, #000000, #ffffff, #F56735, #000000, #000000, #8D8D8D, #000000, #ffffff, #a9a9a9, #707070);
+@include themable(dark, #1b2040, #ffffff, #383E69, #F56735, #ffffff, #ffffff, #ffffff, #ffffff, #F1F5FF, #ffffff, #ffffff);

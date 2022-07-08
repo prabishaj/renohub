@@ -1,0 +1,25 @@
+.page-item.active {
+	.page-link {
+		z-index: 3;
+		color: #fff;
+		background-color: #F56735;
+		border-color: #F56735;
+	}
+}
+.page-link {
+	color: #F56735;
+	&:hover {
+		color: #F56735;
+		background-color: #e1e2e3;
+		border-color: #e1e2e3;
+	}
+	&:focus {
+		color: #F56735;
+		box-shadow: inherit;
+	}
+}
+.page-item.disabled {
+	.page-link {
+		color: #777;
+	}
+}

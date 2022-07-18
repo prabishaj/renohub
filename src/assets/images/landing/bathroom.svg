@@ -1,0 +1,16 @@
+
+<svg id="bathtub_black_24dp" xmlns="http://www.w3.org/2000/svg" width="135" height="135" viewBox="0 0 135 135">
+  <g id="Group_44" data-name="Group 44">
+    <rect id="Rectangle_105" data-name="Rectangle 105" width="135" height="135" fill="none"/>
+  </g>
+  <g id="Group_48" data-name="Group 48" transform="translate(11.29 11.29)">
+    <g id="Group_47" data-name="Group 47">
+      <g id="Group_45" data-name="Group 45" transform="translate(16.935 16.935)">
+        <circle id="Ellipse_15" data-name="Ellipse 15" cx="11.5" cy="11.5" r="11.5" transform="translate(-0.224 -0.224)" fill="#fd8524"/>
+      </g>
+      <g id="Group_46" data-name="Group 46">
+        <path id="Path_36" data-name="Path 36" d="M103.607,64.093V17.975A15.966,15.966,0,0,0,76.343,6.685l-7.056,7.056a9.605,9.605,0,0,0-2.879-.452,11.211,11.211,0,0,0-6.1,1.806l15.58,15.58a11.211,11.211,0,0,0,1.806-6.1,12.208,12.208,0,0,0-.4-2.879l7.056-7.056a4.67,4.67,0,0,1,7.959,3.33V64.093H53.65a28.78,28.78,0,0,1-4.629-4.064l-7.9-8.75a12.11,12.11,0,0,0-3.895-2.822,12.933,12.933,0,0,0-5.645-1.3,12.708,12.708,0,0,0-12.644,12.7v4.234H2V97.962a11.323,11.323,0,0,0,11.29,11.29,5.661,5.661,0,0,0,5.645,5.645H97.962a5.661,5.661,0,0,0,5.645-5.645,11.323,11.323,0,0,0,11.29-11.29V64.093Z" transform="translate(-2 -2)" fill="#fd8524"/>
+      </g>
+    </g>
+  </g>
+</svg>

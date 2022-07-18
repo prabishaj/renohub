@@ -1,0 +1,9 @@
+
+<svg id="fence_black_24dp" xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <g id="Group_121" data-name="Group 121">
+    <rect id="Rectangle_157" data-name="Rectangle 157" width="140" height="140" fill="none"/>
+  </g>
+  <g id="Group_122" data-name="Group 122" transform="translate(17.474 23.298)">
+    <path id="Path_93" data-name="Path 93" d="M107.843,50.6V38.948H96.194V21.474L78.72,4,67.071,15.649,55.421,4,43.772,15.649,32.123,4,14.649,21.474V38.948H3V50.6H14.649V62.246H3V73.9H14.649v23.3H96.194V73.9h11.649V62.246H96.194V50.6ZM78.72,20.484l5.825,5.825V38.948H72.9V26.308l2.388-2.388Zm-23.3,0,3.437,3.437,2.388,2.388V38.948H49.6V26.308l2.388-2.388ZM49.6,62.246V50.6H61.246V62.246ZM61.246,73.9V85.544H49.6V73.9ZM26.3,26.308l5.825-5.825L35.56,23.92l2.388,2.388V38.948H26.3Zm0,24.289H37.948V62.246H26.3Zm0,23.3H37.948V85.544H26.3ZM84.544,85.544H72.9V73.9H84.544Zm0-23.3H72.9V50.6H84.544Z" transform="translate(-3 -4)" fill="#fd8524"/>
+  </g>
+</svg>

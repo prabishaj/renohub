@@ -1,0 +1,14 @@
+
+<svg id="electrical_services_black_24dp" xmlns="http://www.w3.org/2000/svg" width="139" height="139" viewBox="0 0 139 139">
+  <g id="Group_65" data-name="Group 65">
+    <rect id="Rectangle_133" data-name="Rectangle 133" width="139" height="139" fill="none"/>
+  </g>
+  <g id="Group_67" data-name="Group 67" transform="translate(17.496 23.328)">
+    <g id="Group_66" data-name="Group 66">
+      <path id="Path_54" data-name="Path 54" d="M35.5,18.832A5.849,5.849,0,0,0,29.664,13H18V24.664H29.664A5.849,5.849,0,0,0,35.5,18.832Z" transform="translate(69.48 39.488)" fill="#fd8524"/>
+      <path id="Path_55" data-name="Path 55" d="M29.664,17H18V28.664H29.664a5.832,5.832,0,1,0,0-11.664Z" transform="translate(69.48 58.816)" fill="#fd8524"/>
+      <path id="Path_56" data-name="Path 56" d="M21.664,23.664H10V46.992H21.664A11.7,11.7,0,0,0,33.328,58.656h17.5V12h-17.5A11.7,11.7,0,0,0,21.664,23.664Z" transform="translate(30.824 34.656)" fill="#fd8524"/>
+      <path id="Path_57" data-name="Path 57" d="M14.664,56.488A11.7,11.7,0,0,1,26.328,44.824h8.748A20.412,20.412,0,1,0,35.076,4H14.664a5.832,5.832,0,0,0,0,11.664H35.076a8.748,8.748,0,0,1,0,17.5H26.328a23.328,23.328,0,0,0,0,46.656H37.992V68.152H26.328A11.7,11.7,0,0,1,14.664,56.488Z" transform="translate(-3 -4)" fill="#fd8524"/>
+    </g>
+  </g>
+</svg>

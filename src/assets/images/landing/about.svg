@@ -1,0 +1,13 @@
+
+<svg id="person_search_black_24dp" xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 78 78">
+  <g id="Group_16" data-name="Group 16">
+    <rect id="Rectangle_44" data-name="Rectangle 44" width="78" height="78" fill="none"/>
+  </g>
+  <g id="Group_18" data-name="Group 18" transform="translate(6.496 13.491)">
+    <g id="Group_17" data-name="Group 17" transform="translate(0 0)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="13" cy="13" r="13" transform="translate(12.504 -0.491)" fill="none" stroke="#161616" stroke-width="2"/>
+      <path id="Path_11" data-name="Path 11" d="M29.12,14.022C20.253,13.7,2,18.114,2,26.981v6.5H32.985A19.324,19.324,0,0,1,29.12,14.022Z" transform="translate(-2 17.991)" fill="none" stroke="#161616" stroke-width="2"/>
+      <path id="Path_12" data-name="Path 12" d="M36.132,31.553a12.55,12.55,0,0,0,1.851-6.561A12.992,12.992,0,1,0,24.992,37.984a12.858,12.858,0,0,0,6.561-1.851L39.9,44.479l4.58-4.58Zm-11.14-.065a6.5,6.5,0,1,1,6.5-6.5A6.515,6.515,0,0,1,24.992,31.488Z" transform="translate(20.479 13.484)" fill="none" stroke="#161616" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

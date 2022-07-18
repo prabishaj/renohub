@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="229" height="215.077" viewBox="0 0 229 215.077">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.017" y1="0.721" x2="1.094" y2="0.717" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd8524"/>
+      <stop offset="1" stop-color="#ffc24d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.396" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd8725"/>
+      <stop offset="0.489" stop-color="#ffb957"/>
+      <stop offset="1" stop-color="#ffbc49"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_78" data-name="Group 78" transform="translate(-6128.818 -2199.789)">
+    <path id="Path_77" data-name="Path 77" d="M5571.832,2097.893l-52.77,40.378v82.224H5625.28v-82.224Z" transform="translate(682.765 117.868)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_146" data-name="Rectangle 146" width="17.773" height="36.128" transform="translate(6246.431 2306.234)" fill="#fff"/>
+    <path id="Path_79" data-name="Path 79" d="M5697.083,2178.462h9.47l-72.694-58.633-.049-.04h0v8.67Z" transform="translate(621.127 80)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_80" data-name="Path 80" d="M5643.278,2178.462h-9.469l72.694-58.633.05-.04h0v8.67Z" transform="translate(548.383 80)" fill="#fd8625"/>
+    <text id="RENOHUB" transform="translate(6128.818 2402.866)" fill="#272727" font-size="47" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">RENOHUB</tspan></text>
+  </g>
+</svg>

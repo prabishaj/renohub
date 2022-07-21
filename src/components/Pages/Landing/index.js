@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container,  Navbar, Row, Col} from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 import LandingWrap from "./style";
+
 import logo from "../../../assets/images/landing/logo.svg";
 import home from "../../../assets/images/landing/home.svg";
 import about from "../../../assets/images/landing/about.svg";
@@ -47,7 +48,7 @@ export const Landing = () => {
     <LandingWrap>
       <Container fluid>
       <div className="renohub-landing-page">
-      <div className='banner-section bg-blue float-left'>
+      <div className='banner-section bg-white float-left'>
        
        <Row> 
         <Col sm="3" classname="logo">
@@ -58,8 +59,8 @@ export const Landing = () => {
             </Col>
           
             <Col sm="8" className='mx-auto text-center text-black'>
-              <h3 classname="subhead" text-left>Auckland Wide - Pokeno to Puhoi  Call us on: 1234567879</h3>
-              <h3 className="section-subhead">For all your renovation, maintenance, home staging, real estate sales and marketing needs Finance available - no deposit, no payments finance available to cover the complete project</h3>
+              <h3 classname="subhead text-right">Auckland Wide - Pokeno to Puhoi  Call us on: 1234567879</h3>
+              <h3 className="section-subhead text-right">For all your renovation, maintenance, home staging, real estate sales and marketing needs Finance available - no deposit, no payments finance available to cover the complete project</h3>
             </Col>
           </Row>
           {/* banner-headig end */}
@@ -213,29 +214,30 @@ export const Landing = () => {
                 <h3 className='mb-0 text-center'>Curtains and blinds</h3>
             </Col>
            </Row>
+           <br></br>
            <Row>
             <br></br>
            <Col classname="garden">
-           <div class="frame1">
-                <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={garden} alt="" type="submit"/></div>
+           <div class="frame3">
+                <div className='mx-auto mb-1 mt-1 text-center box-img1'><img className="img-fluid" src={garden} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>Gardens and landscaping</h3>
             </Col>
             <Col classname="staging">
-            <div class="frame1">
-                <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={staging} alt="" type="submit"/></div>
+            <div class="frame3">
+                <div className='mx-auto mb-1 mt-1 text-center box-img1'><img className="img-fluid" src={staging} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>House staging</h3>
             </Col>
             <Col classname="fencing">
-            <div class="frame1">
-                <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={fencing} alt="" type="submit"/></div>
+            <div class="frame3">
+                <div className='mx-auto mb-1 mt-1 text-center box-img1'><img className="img-fluid" src={fencing} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>Fencing and gates</h3>
             </Col>
             <Col classname="Finance1">
-            <div class="frame1">
-                <div class='box-img'><img className="img-fluid" src={Finance1} alt="" type="submit"/></div>
+            <div class="frame3">
+                <div class='box-img1'><img className="img-fluid" src={Finance1} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>Finance</h3>
             </Col>
@@ -249,19 +251,18 @@ export const Landing = () => {
       {/* projects-productivity end */}
       <div class="border-top" display="inline-block" >
      <Row>
-      <Col>
-      <div class=" text-center  bg-img3"></div>
+      <Col sm='6' display="inline-block">
+      <div class=" text-center  bg-img3">
       <img  src={deposite} alt="" className="img-fluid" />
+      <span>No deposite</span>
+      </div>
       </Col>
-      <Col>
-        <h4>No deposite</h4>
-      </Col>
-      <Col class="mar2">
-      <div class=" text-left  bg-img3"></div>
+      <Col sm='6' class="mar2" display="inline-block">
+      <div class=" text-left  bg-img3">
       <img  src={deposite} alt="" className="img-fluid" />
-        </Col>
-        <Col>
-        <h4>No payment untill settlement day</h4>
+        <span>No payment untill settlement day</span>
+        
+        </div>
       </Col>
      </Row>
      </div>
@@ -276,13 +277,15 @@ export const Landing = () => {
        <h1>SEND US A MESSAGE</h1>
       <p>Fill up this form and we'll be in touch to discuss your requirements</p>
       
-      <Col classname="name">
-    <input type="text" placeholder="First name*" name="fname" required/><br></br>
-    <input type="text" placeholder="Last name*" name="lname" required/>
-    <input type="number" placeholder="Contact number*" name="number" required/>
-    <input type="text" placeholder="Email ID*" name="email" required/>
-    <input type="text" placeholder="Location of job*" name="location" required/>
+      <Col>
+      <div class="name" color="white">
+    <input type="text" class="name" placeholder="First name*" name="fname" required/><br></br>
+    <input type="text" class="name" placeholder="Last name*" name="lname" required/>
+    <input type="number" class="name" placeholder="Contact number*" name="number" required/>
+    <input type="text" class="name" placeholder="Email ID*" name="email" required/>
+    <input type="text" class="name" placeholder="Location of job*" name="location" required/>
     <button type="submit" class="btn1">Send message</button>
+    </div>
     </Col>
     <Col classname="detail">
     <input class="detail" type="text" placeholder="details*" name="details" required/>
@@ -290,7 +293,9 @@ export const Landing = () => {
    
     </Row>
        </form>
+       <div class="pri">
        <p> Privacy Policy | This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply</p>
+       </div>
        </div>
        </div>
        </Row>
@@ -345,39 +350,37 @@ export const Landing = () => {
             <div class="footer" display="inline-block">
             <Row>
               
-              <Col sm="3" align="center" class="contact" display="inline-block">
-              <img  src={call} alt="width:100%" className="img-fluid" display="inline-block" />
-              </Col>
-              <Col>
-              <h1 classname='align-left' >|</h1>
-              </Col>
-              <Col>
-              <h4 className='mb-0 text-center'>Contact number</h4>
+              <Col sm="6" align="center" class="contact" display="inline-block">
+                
+              <img  src={call} alt="width:80%" className="img-fluid1" display="inline-block" />
               
               
-              <p>123456789</p>
-              </Col>
-              <Col sm="3" align="center" class="clock" display="inline">
-              <img  src={clock} alt="width:100%" className="img-fluid" />
-              </Col>
-              <Col>
-              <h1>|</h1>
-              </Col>
-              <Col>
-              <h4 className='mb-0 text-center'>Hours of operations</h4>
               
-              <p>7am-7pm from Mon to Sat</p>
+               <span class="span2">Contact number</span><br></br>
+             <span class="span4">123456789</span>
+             
+              </Col>
+              <Col sm="6" align="center" class="clock" display="inline">
+              <img  src={clock} alt="width:80%" className="img-fluid1" />
+              
+              
+              
+              <span class="span2">Hours of operations</span><br></br>
+              
+              <span class="span3">7am-7pm from Mon to Sat</span>
+              
               </Col>
               
             </Row>
             
             <br></br>
             </div>
+            
             <Row>
               <Col sm="9" align="center" class="end">
                 <p>2015 - 2022 Renohub. +64212223344. Powered by Web Genius. Page: Home Staging Auckland | Staging a House for Sale West Auckland - Last updated: 18th January, 2022 Site Map | Links to other quality businesses.</p>
               </Col>
-            <Col  sm="3" align="center" className='mx-auto social-media'>
+            <Col  sm="3" align="center" className='social-media'>
             <img  src={facebook} alt="width:100%" className="img-fluid" />
             <img  src={twitter} alt="width:100%" className="img-fluid" />
             <img  src={youtube} alt="width:100%" className="img-fluid" />
@@ -385,6 +388,7 @@ export const Landing = () => {
             </Col>
             
           </Row>
+          
         </div>
 </footer>
 

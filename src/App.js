@@ -12,6 +12,7 @@ const { theme,darktheme } = config;
 
 const App = () => {
   const darkmode = useSelector((state) => state.Layout.darkmode);
+ 
   return (
     <div className="App">
       <ThemeProvider theme={darkmode ? darktheme : theme} >

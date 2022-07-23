@@ -3,6 +3,12 @@ import Styled from "styled-components";
 // import codeTesting from "../../../assets/images/login/codeTesting.svg";
 
 const LandingWrap = Styled.div`
+.container-fluid {
+  width: 100%;
+  padding: 0px;
+  padding-right: 0px;
+  overflow: hidden;
+}
 
 .services {
   text-align: center;
@@ -35,15 +41,7 @@ box-img {
   width: 100%;
   height: 100%;
 }
-.frame2 {
-  width: 100px;
-  height: 100px;
-  border: 3px solid #FD8524;
-  border-radius: 50%;
-  background: #fff;
-  margin: auto;
-  padding: 20px 20px;
-}
+
 
 box-img1 {
   width: 100%;
@@ -87,14 +85,15 @@ opacity: 1;
   }
 }
 .banner-section {
-  padding: 70px 0px 30px;
+  width: 100%;
+  padding: 90px 0px 50px ;
   margin-bottom: 0px;
   position: relative;
   
   h2 {
     color: #000;
-    font-size: 58px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 100;
   }
   h3 {
     color: #000;
@@ -110,7 +109,8 @@ color: #FD8524;
 opacity: 1;
 }
 .image1 {
-  border-top: 5px solid #FD8524;
+  border-top: 3px solid #FD8524;
+  padding: 0px;
  width: 100%;
 position: relative;
 height: 100%;
@@ -141,7 +141,13 @@ position: absolute;
   }
 }
 
-
+.first {
+  text-align: center;
+font: normal normal bold 24px/30px Amazon Ember;
+letter-spacing: 0px;
+color: #262525;
+opacity: 1;
+}
 
 .text-block1 {
   position: absolute;
@@ -211,7 +217,9 @@ position: absolute;
     width: 65%;
     opacity: 1;
   }
-  
+  .btn1:hover {
+background-color: #808080; 
+  }
   
   .detail {
     width: 80%;
@@ -235,6 +243,9 @@ position: absolute;
   
   text-align: left;
  }
+ .btn:hover {
+  background-color: #808080;
+ }
 .bg-img2 {
    background-image: url("Image 2@2x.png");
   min-height: 380px;
@@ -242,7 +253,8 @@ position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  wigth: 100px;
+  wigth: 100%;
+  padding: 0px;
  .btn {
     opacity: 1;
   }
@@ -252,27 +264,32 @@ Container-margin {
 }
 
 .footer {
+  padding-right: 0px;
   background: #EEEEEE ;
 opacity: 1;
 width: 100%;
-height: 100%;
 }
+h3:hover {
+font-weight: bold;
+}
+
 .img-fluid1 {
-  
-  border-right:solid #000;
-    border-width: 0 3px;
-    height: 60px;
-    margin:0 2px;
-    padding:0 10px;
-    padding-top: 10px;
+  width: 50px;
+    padding: 10px;
+    padding-bottom: 0px;
 }
-.contact img-fluid1,span1,span2{
+.contact img-fluid1,span1,span2,cont{
 display: inline-block;
 }
-  
+.class {
+  border-left: 3px solid #000000;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
     .span2 {
-     
-      padding: 10px;
+     padding: 3px 0px 0px;
+      padding-bottom: 0px;
       text-align: left;
   font-size: 25px;
   letter-spacing: 0px;
@@ -281,7 +298,8 @@ display: inline-block;
       
       }
       .span3 {
-        padding-left: 80px;
+        padding-left: 100px;
+        padding-top: 0px;
         text-align: right;
     font-size: 20px;
     letter-spacing: 0px;
@@ -291,7 +309,7 @@ display: inline-block;
         }
         
         .span4 {
-          
+          padding-left: 5px;
           text-align: right;
       font-size: 20px;
       letter-spacing: 0px;
@@ -299,16 +317,13 @@ display: inline-block;
       opacity: 1;
           
           }
+        }
           .end {
             text-align: right;
           }
 @media (min-width: 1400px)
 {
-  .renohub-landing-page .banner-section .container-fluid
-{
-  padding: 0 50px;
-}
-}
+  
 .social-media {
   .img-fluid {
     display: inline-block;
@@ -316,56 +331,11 @@ display: inline-block;
     }
  
 }
-
-
-@media (max-width: 1399px)
-{
-
-.renohub-landing-page .banner-section .container-fluid
-{
-  padding: 0 70px;
 }
-
-}
-
-
-@media (max-width: 1199px)
-{
-
-
-  .renohub-landing-page .banner-section .container-fluid
-  {
-    padding: 0 50px;
-  }
-    .container-fluid {
-        max-width: 100%;
-    }
-    .footer-logo {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-    .foot-top-nav
-    {
-      text-align: center;
-    }
-    .footer-section  {
-      // font-size: 12px;
-      // padding: 2px;
-    }
-    .footer-section  {
-      width: 80%;
-      margin-top: 30px;
-      padding-top: 16px;
-  }
-    .footer-section  {
-        width: 5px;
-        height: 30px;
-    }
-   
 @media  (min-width:720px) and (max-width: 1200px)
 {
   .text-block {
-  height: 465px;
+  height: 495px;
   width: 400px;
   h1 {
     font: normal normal bold 20px/40px Amazon Ember;
@@ -407,7 +377,7 @@ opacity: 1;
 @media (min-width:720px) and (max-width:1200px)
 {
   .text-block1 {
-    width:700px;
+    width:720px;
     opacity: 0.75;
    .Form {
     height: 280px;
@@ -463,16 +433,14 @@ opacity: 1;
   
   .img-fluid1 {
   
-    border-right:solid #000;
-      border-width: 0 3px;
-      height: 40px;
+    
       margin:0 2px;
       padding:0 10px;
       padding-top: 10px;
   }
   .span2 {
      
-    padding: 10px;
+    padding: 1px;
     text-align: left;
 font-size: 20px;
 letter-spacing: 0px;
@@ -481,7 +449,7 @@ opacity: 1;
     
     }
     .span3 {
-      padding-left: 80px;
+      padding-left: 90px;
       text-align: right;
   font-size: 15px;
   letter-spacing: 0px;
@@ -491,7 +459,7 @@ opacity: 1;
       }
       
       .span4 {
-        
+        padding-left: 25px;
         text-align: right;
     font-size: 15px;
     letter-spacing: 0px;

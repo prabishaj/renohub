@@ -48,7 +48,7 @@ export const Landing = () => {
     <LandingWrap>
       <Container fluid>
       <div className="renohub-landing-page">
-      <div className='banner-section bg-white float-left'>
+      <div className='banner-section bg-white float-center'>
        
        <Row> 
         <Col sm="3" classname="logo">
@@ -59,8 +59,8 @@ export const Landing = () => {
             </Col>
           
             <Col sm="8" className='mx-auto text-center text-black'>
-              <h3 classname="subhead text-right">Auckland Wide - Pokeno to Puhoi  Call us on: 1234567879</h3>
-              <h3 className="section-subhead text-right">For all your renovation, maintenance, home staging, real estate sales and marketing needs Finance available - no deposit, no payments finance available to cover the complete project</h3>
+              <h2 classname="subhead text-right">Auckland Wide - Pokeno to Puhoi  Call us on: 1234567879</h2>
+              <h2 className="section-subhead text-right">For all your renovation, maintenance, home staging, real estate sales and marketing needs Finance available - no deposit, no payments finance available to cover the complete project</h2>
             </Col>
           </Row>
           {/* banner-headig end */}
@@ -68,8 +68,8 @@ export const Landing = () => {
           <div sm="12" className='text-center mt-5 mb-5'>
             <Row>
               
-                <Col classname="home1">
-                  <div class="frame2">
+                <Col classname="home1" type="submit">
+                  <div class="frame">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={home} alt="" type="submit"/></div>
                 </div>
                 <div class="home">
@@ -77,49 +77,49 @@ export const Landing = () => {
                 
             </Col>
               {/* 1st box end */}
-              <Col className="about">
+              <Col className="about" type="submit">
                 <div class="frame">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={about} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>ABOUT</h3>
               </Col>
               {/* 2nd box end */}
-              <Col className='renovations'>
+              <Col className='renovations' type="submit">
               <div class="frame">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={renovation} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>RENOVATIONS</h3>
               </Col>
               {/* 3rd box end */}
-              <Col className=''>
+              <Col className='home stage' type="submit">
               <div class="frame">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={homestaging} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>HOME STAGING</h3>
               </Col>
               {/* 4th box end */}
-              <Col className='marketing fees'>
+              <Col className='marketing fees' type="submit">
               <div class="frame">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={market} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>MARKETING FEES</h3>
               </Col>
               {/* 5th box end */}
-              <Col className='finance'>
+              <Col className='finance' type="submit">
               <div class="frame">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={finance} alt="" /></div>
                 </div>
                 <h3 className='mb-0 text-center'>FINANCE & APPLICATION</h3>
               </Col>
               {/* 6th box end */}
-              <Col className='gallery'>
+              <Col className='gallery' type="submit">
               <div class="frame">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={gallery} alt=""  type="submit" /></div>
                 </div>
                 <h3 className='mb-0 text-center'>GALLERY</h3>
               </Col>
               {/* 7th box end */}
-              <Col className='contact'>
+              <Col className='contact' type="submit">
               <div class="frame">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={contacts} alt=""  type="submit" /></div>
                 </div>
@@ -130,13 +130,14 @@ export const Landing = () => {
               </div>
           <Row>
           <div class="image1">
-          <div class=" text-left  bg-img"></div>
+          <div class=" text-left  bg-img">
           
               <img  src={img1} alt="" className="img-fluid" />
               <div class="text-block" align="left">
                 <h1>RENOHUB IS ALL YOU NEED FOR YOUR KITCHEN, BATHROOM AND FULL HOME RENOVATION</h1>
                 <p>Whether you are looking to update your kitchen, revitalise your outdoor area, or a complete house makeover we provide comprehensive renovation services from Pokeno to Puhoi. And if you are one of the many renovating to sell we also offer no deposit finance options to fund any upgrades or costs associated with listing, including home-staging, real estate sales marketing fees and valuations.</p>
                 <button variant="secondary" class="btn">Read more</button>
+              </div>
               </div>
             </div>
             </Row>
@@ -151,31 +152,31 @@ export const Landing = () => {
            </div>
            </Row><br></br>
            <Row>
-           <Col classname="concrete">
+           <Col classname="concrete" type="submit">
            <div class="frame1">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={concrete} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>Concrete,tiling and paving</h3>
             </Col>
-            <Col classname="carpet">
+            <Col classname="carpet" type="submit">
             <div class="frame1">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={carpet} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>Carpet and flooring</h3>
             </Col>
-            <Col classname="reno">
+            <Col classname="reno" type="submit">
             <div class="frame1">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={reno} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>Renovation and maintenance</h3>
             </Col>
-            <Col classname="kitchen">
+            <Col classname="kitchen" type="submit">
             <div class="frame1">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={kitchen} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>Kitchen renovation</h3>
             </Col>
-            <Col classname="elect">
+            <Col classname="elect" type="submit">
             <div class="frame1">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={elect} alt="" type="submit"/></div>
                 </div>
@@ -183,31 +184,31 @@ export const Landing = () => {
             </Col>
            </Row><br></br>
            <Row>
-           <Col classname="bathroom">
+           <Col classname="bathroom" type="submit">
            <div class="frame1">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={bathroom} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>Bathroom renovation</h3>
             </Col>
-            <Col classname="house">
+            <Col classname="house" type="submit">
             <div class="frame1">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={house} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>House washing</h3>
             </Col>
-            <Col classname="painting">
+            <Col classname="painting" type="submit">
             <div class="frame1">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={painting} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>House painting</h3>
             </Col>
-            <Col classname="roof">
+            <Col classname="roof" type="submit">
             <div class="frame1">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={roof} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>Roof painting and treatments</h3>
             </Col>
-            <Col classname="curtains">
+            <Col classname="curtains" type="submit">
             <div class="frame1">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={curtains} alt="" type="submit"/></div>
                 </div>
@@ -217,25 +218,25 @@ export const Landing = () => {
            <br></br>
            <Row>
             <br></br>
-           <Col classname="garden">
+           <Col classname="garden" type="submit">
            <div class="frame3">
                 <div className='mx-auto mb-1 mt-1 text-center box-img1'><img className="img-fluid" src={garden} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>Gardens and landscaping</h3>
             </Col>
-            <Col classname="staging">
+            <Col classname="staging" type="submit">
             <div class="frame3">
                 <div className='mx-auto mb-1 mt-1 text-center box-img1'><img className="img-fluid" src={staging} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>House staging</h3>
             </Col>
-            <Col classname="fencing">
+            <Col classname="fencing" type="submit">
             <div class="frame3">
                 <div className='mx-auto mb-1 mt-1 text-center box-img1'><img className="img-fluid" src={fencing} alt="" type="submit"/></div>
                 </div>
                 <h3 className='mb-0 text-center'>Fencing and gates</h3>
             </Col>
-            <Col classname="Finance1">
+            <Col classname="Finance1" type="submit">
             <div class="frame3">
                 <div class='box-img1'><img className="img-fluid" src={Finance1} alt="" type="submit"/></div>
                 </div>
@@ -310,35 +311,35 @@ export const Landing = () => {
           <div class="footer">
           <Row className="sect">
             
-              <Col classname="home">
+              <Col classname="home" type="submit">
               
-              <h3 className='mb-2 text-center'>HOME</h3>
+              <h3 className='mb-2 first'>HOME</h3>
               </Col>
-              <Col classname="home">
+              <Col classname="home" type="submit">
               
-              <h3 className='mb-2 text-center'>ABOUT</h3>
+              <h3 className='mb-2 text-center '>ABOUT</h3>
               </Col>
-              <Col classname="home">
+              <Col classname="home" type="submit">
               
               <h3 className='mb-2 text-center'>RENOVATIONS</h3>
               </Col>
-              <Col classname="home">
+              <Col classname="home" type="submit">
               
               <h3 className='mb-2 text-center'>HOMESTAGING</h3>
               </Col>
-              <Col classname="home">
+              <Col classname="home" type="submit">
               
               <h3 className='mb-2 text-center'>MARKETING FEES</h3>
               </Col>
-              <Col classname="home">
+              <Col classname="home" type="submit">
               
               <h3 className='mb-2 text-center'>GALLERY</h3>
               </Col>  
-              <Col classname="home">
+              <Col classname="home" type="submit">
               
               <h3 className='mb-2 text-center'>CONTACT</h3>
               </Col> 
-              <Col classname="home">
+              <Col classname="home" type="submit">
               
               <h3 className='mb-2 text-center'>FINANCE &APPLICATIONS</h3>
               </Col> 
@@ -354,16 +355,17 @@ export const Landing = () => {
                 
               <img  src={call} alt="width:80%" className="img-fluid1" display="inline-block" />
               
-              
+              <span class="class" >
               
                <span class="span2">Contact number</span><br></br>
+               
              <span class="span4">123456789</span>
-             
+             </span>
               </Col>
               <Col sm="6" align="center" class="clock" display="inline">
               <img  src={clock} alt="width:80%" className="img-fluid1" />
               
-              
+              <span class="class"/>
               
               <span class="span2">Hours of operations</span><br></br>
               

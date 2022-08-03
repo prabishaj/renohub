@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col} from "react-bootstrap";
 import LandingWrap from "./style";
-
 import logo from "../../../assets/images/landing/logo.svg";
 import home from "../../../assets/images/landing/home.svg";
 import about from "../../../assets/images/landing/about.svg";
@@ -41,9 +40,6 @@ export const Landing = () => {
 
   // const handleClose = () => setShow(false);
   // const handleShow = () => setShow(true);
-
-  
-
   return (
     <LandingWrap>
       <Container fluid>
@@ -67,15 +63,13 @@ export const Landing = () => {
 
           <div sm="12" className='text-center mt-5 mb-5'>
             <Row>
-              
                 <Col classname="home1" type="submit">
                   <div class="frame">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={home} alt="" type="submit"/></div>
                 </div>
                 <div class="home">
                 <h3 className='home mb-0'>HOME</h3></div>
-                
-            </Col>
+              </Col>
               {/* 1st box end */}
               <Col className="about" type="submit">
                 <div class="frame">
@@ -133,7 +127,7 @@ export const Landing = () => {
           <div class=" text-left  bg-img">
           
               <img  src={img1} alt="" className="img-fluid" />
-              <div class="text-block" align="left">
+              <div class="text-block">
                 <h1>RENOHUB IS ALL YOU NEED FOR YOUR KITCHEN, BATHROOM AND FULL HOME RENOVATION</h1>
                 <p>Whether you are looking to update your kitchen, revitalise your outdoor area, or a complete house makeover we provide comprehensive renovation services from Pokeno to Puhoi. And if you are one of the many renovating to sell we also offer no deposit finance options to fund any upgrades or costs associated with listing, including home-staging, real estate sales marketing fees and valuations.</p>
                 <button variant="secondary" class="btn">Read more</button>
@@ -268,31 +262,29 @@ export const Landing = () => {
      </Row>
      </div>
           <Row>
-       <div class="bg-img2">
-          
+       <div class="bg-img2 ">
        <img  src={img2} alt="width:100%" className="img-fluid" />
        <div class="text-block1">
-        
        <form action="/action_page.php" class="Form">
-        <Row>
-       <h1>SEND US A MESSAGE</h1>
-      <p>Fill up this form and we'll be in touch to discuss your requirements</p>
-      
-      <Col>
-      <div class="name" color="white">
-    <input type="text" class="name" placeholder="First name*" name="fname" required/><br></br>
-    <input type="text" class="name" placeholder="Last name*" name="lname" required/>
-    <input type="number" class="name" placeholder="Contact number*" name="number" required/>
-    <input type="text" class="name" placeholder="Email ID*" name="email" required/>
-    <input type="text" class="name" placeholder="Location of job*" name="location" required/>
-    <button type="submit" class="btn1">Send message</button>
-    </div>
-    </Col>
-    <Col classname="detail">
-    <input class="detail" type="text" placeholder="details*" name="details" required/>
-    </Col>
-   
-    </Row>
+           <Row>
+            <Col sm={12} md={12} lg={12} xl={12}>
+              <h1>SEND US A MESSAGE</h1>
+               <p>Fill up this form and we'll be in touch to discuss your requirements</p>
+           </Col>
+           <Col>
+              <div class="name" color="white">
+                  <input type="text" class="name" placeholder="First name*" name="fname" required/><br></br>
+                  <input type="text" class="name" placeholder="Last name*" name="lname" required/>
+                  <input type="number" class="name" placeholder="Contact number*" name="number" required/>
+                  <input type="text" class="name" placeholder="Email ID*" name="email" required/>
+                  <input type="text" class="name" placeholder="Location of job*" name="location" required/>
+                  <button type="submit" class="btn1">Send message</button>
+               </div>
+           </Col>
+           <Col classname="detail">
+                 <input class="detail" type="text" placeholder="details*" name="details" required/>
+          </Col>
+         </Row>
        </form>
        <div class="pri">
        <p> Privacy Policy | This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply</p>

@@ -45,92 +45,106 @@ export const Landing = () => {
       <Container fluid>
       <div className="renohub-landing-page">
       <div className='banner-section bg-white float-center'>
-       
        <Row> 
         <Col sm="3" classname="logo">
-        
-      <div className='mx-auto mb-1 mt-1 text-center box-img'>
-        <img className="img-fluid" src={logo} alt="" /></div>
-            
-            </Col>
-          
+        <div className='mx-auto mb-1 mt-1 text-center'>
+            <img className="logo1" src={logo} alt="Renohub" /></div>
+       </Col>
             <Col sm="8" className='mx-auto text-center text-black'>
-              <h2 classname="subhead text-right">Auckland Wide - Pokeno to Puhoi  Call us on: 1234567879</h2>
-              <h2 className="section-subhead text-right">For all your renovation, maintenance, home staging, real estate sales and marketing needs Finance available - no deposit, no payments finance available to cover the complete project</h2>
+              <Row className='call'>
+                <Col sm="12" md="9" lg="9" className='call'>
+              <p className='pokeno'>Auckland Wide - Pokeno to Puhoi </p> 
+              </Col>
+              <Col sm="12" md="3" lg="3" className='call'>
+              <p className='pokeno1' > Call us on: 1234567879</p>
+              </Col>
+              </Row>
+              <Row>
+                <Col lg="12" className='call'>
+                      <p className='renovation'>For all your renovation, maintenance, home staging, real estate sales and marketing needs<br/> Finance available - no deposit, no payments finance available to cover the complete project</p>
+                </Col>
+              </Row>
             </Col>
           </Row>
           {/* banner-headig end */}
-
           <div sm="12" className='text-center mt-5 mb-5'>
             <Row>
-                <Col classname="home1" type="submit">
+              <Col lg="1" className='paint' ></Col>
+                <Col className='space' type="submit">
                   <div class="frame">
-                <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={home} alt="" type="submit"/></div>
+                <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={home} alt="Home" type="submit"/></div>
                 </div>
                 <div class="home">
-                <h3 className='home mb-0'>HOME</h3></div>
+                <p className='home mb-0 orange'>HOME</p></div>
               </Col>
               {/* 1st box end */}
-              <Col className="about" type="submit">
+              <Col className='space' type="submit">
                 <div class="frame">
-                <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={about} alt="" type="submit"/></div>
+                <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={about} alt="About" type="submit"/></div>
                 </div>
-                <h3 className='mb-0 text-center'>ABOUT</h3>
+                <p className='mb-0 text-center black'>ABOUT</p>
               </Col>
               {/* 2nd box end */}
-              <Col className='renovations' type="submit">
+              <Col className='renovations space' type="submit">
               <div class="frame">
-                <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={renovation} alt="" type="submit"/></div>
-                </div>
-                <h3 className='mb-0 text-center'>RENOVATIONS</h3>
+                <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={renovation} alt="Renovation" type="submit"/></div>
+               </div>
+                <p className='mb-0 text-center black'>RENOVATIONS</p>
               </Col>
               {/* 3rd box end */}
-              <Col className='home stage' type="submit">
+              <Col className='homestage space' type="submit">
               <div class="frame">
-                <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={homestaging} alt="" type="submit"/></div>
-                </div>
-                <h3 className='mb-0 text-center'>HOME STAGING</h3>
+                 <div className='mx-auto mb-1 mt-1 text-center box-img '><img className="img-fluid" src={homestaging} alt="Home Stage" type="submit"/></div>
+             </div>
+                <p className='mb-0 text-center black'>HOME STAGING</p>
               </Col>
               {/* 4th box end */}
-              <Col className='marketing fees' type="submit">
+              <Col className='marketingfees space' type="submit">
               <div class="frame">
-                <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={market} alt="" type="submit"/></div>
+                <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={market} alt=" Marketing Fees" type="submit"/></div>
                 </div>
-                <h3 className='mb-0 text-center'>MARKETING FEES</h3>
+                <p className='mb-0 text-center black'>MARKETING FEES</p>
               </Col>
               {/* 5th box end */}
-              <Col className='finance' type="submit">
+              <Col className='finance space' type="submit">
               <div class="frame">
-                <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={finance} alt="" /></div>
+                <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={finance} alt=" Finance" /></div>
                 </div>
-                <h3 className='mb-0 text-center'>FINANCE & APPLICATION</h3>
+                <p className='mb-0 text-center black'>FINANCE & APPLICATION</p>
               </Col>
               {/* 6th box end */}
-              <Col className='gallery' type="submit">
+              <Col className='gallery space' type="submit">
               <div class="frame">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={gallery} alt=""  type="submit" /></div>
                 </div>
-                <h3 className='mb-0 text-center'>GALLERY</h3>
+                <p className='mb-0 text-center black'>GALLERY</p>
               </Col>
               {/* 7th box end */}
               <Col className='contact' type="submit">
               <div class="frame">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={contacts} alt=""  type="submit" /></div>
                 </div>
-                <h3 className='mb-0 text-center'>CONTACT</h3>
+                <p className='mb-0 text-center black'>CONTACT</p>
               </Col>
+              <Col lg="1" className='paint'></Col>
               {/* 8th box end */}
               </Row>
               </div>
           <Row>
           <div class="image1">
           <div class=" text-left  bg-img">
-          
               <img  src={img1} alt="" className="img-fluid" />
               <div class="text-block">
-                <h1>RENOHUB IS ALL YOU NEED FOR YOUR KITCHEN, BATHROOM AND FULL HOME RENOVATION</h1>
-                <p>Whether you are looking to update your kitchen, revitalise your outdoor area, or a complete house makeover we provide comprehensive renovation services from Pokeno to Puhoi. And if you are one of the many renovating to sell we also offer no deposit finance options to fund any upgrades or costs associated with listing, including home-staging, real estate sales marketing fees and valuations.</p>
+                <Row>
+                  <Col lg="12">
+                <p className='hall'>RENOHUB IS ALL YOU NEED FOR YOUR KITCHEN, BATHROOM AND FULL HOME RENOVATION</p>
+                </Col>
+                <Col lg="12">
+                <p className='kitchen'>Whether you are looking to update your kitchen, revitalise your outdoor area, or a complete house makeover we provide comprehensive renovation services from Pokeno to Puhoi. And if you are one of the many renovating to sell we also offer no deposit finance options to fund any upgrades or costs associated with listing, including home-staging, real estate sales marketing fees and valuations.</p>
+                </Col>
+                </Row>
                 <button variant="secondary" class="btn">Read more</button>
+               
               </div>
               </div>
             </div>
@@ -263,7 +277,7 @@ export const Landing = () => {
      </div>
           <Row>
        <div class="bg-img2 ">
-       <img  src={img2} alt="width:100%" className="img-fluid" />
+       <img  src={img2} alt="width:100%" className="img-fluid"/>
        <div class="text-block1">
        <form action="/action_page.php" class="Form">
            <Row>
@@ -302,46 +316,35 @@ export const Landing = () => {
             
           <div class="footer">
           <Row className="sect">
-            
-              <Col classname="home" type="submit">
-              
-              <h3 className='mb-2 first'>HOME</h3>
+          
+              <Col lg="1" classname="home" type="submit">
+                     <p className='mb-2 first'>HOME</p>
               </Col>
-              <Col classname="home" type="submit">
-              
-              <h3 className='mb-2 text-center '>ABOUT</h3>
+              <Col lg="1" classname="home" type="submit">
+                     <p className='mb-2 text-center '>ABOUT</p>
               </Col>
-              <Col classname="home" type="submit">
-              
-              <h3 className='mb-2 text-center'>RENOVATIONS</h3>
+              <Col lg="2" classname="home" type="submit">
+                     <p className='mb-2 text-center'>RENOVATIONS</p>
               </Col>
-              <Col classname="home" type="submit">
-              
-              <h3 className='mb-2 text-center'>HOMESTAGING</h3>
+              <Col lg="1" classname="home" type="submit">
+                     <p className='mb-2 text-center'>HOMESTAGING</p>
               </Col>
-              <Col classname="home" type="submit">
-              
-              <h3 className='mb-2 text-center'>MARKETING FEES</h3>
+              <Col lg="2" classname="home" type="submit">
+                     <p className='mb-2 text-center'>MARKETING FEES</p>
               </Col>
-              <Col classname="home" type="submit">
-              
-              <h3 className='mb-2 text-center'>GALLERY</h3>
+              <Col lg="1" classname="home" type="submit">
+                    <p className='mb-2 text-center'>GALLERY</p>
               </Col>  
-              <Col classname="home" type="submit">
-              
-              <h3 className='mb-2 text-center'>CONTACT</h3>
+              <Col lg="1" classname="home" type="submit">
+                    <p className='mb-2 text-center'>CONTACT</p>
               </Col> 
-              <Col classname="home" type="submit">
-              
-              <h3 className='mb-2 text-center'>FINANCE &APPLICATIONS</h3>
+              <Col lg="2" classname="home" type="submit">
+                    <p className='mb-2 text-center'>FINANCE&APPLICATIONS</p>
               </Col> 
-                 
-            
-            
             </Row>
             <br></br>
             <div class="footer" display="inline-block">
-            <Row>
+         <Row>
               
               <Col sm="6" align="center" class="contact" display="inline-block">
                 
@@ -360,7 +363,6 @@ export const Landing = () => {
               <span class="class"/>
               
               <span class="span2">Hours of operations</span><br></br>
-              
               <span class="span3">7am-7pm from Mon to Sat</span>
               
               </Col>
@@ -370,19 +372,21 @@ export const Landing = () => {
             <br></br>
             </div>
             
-            <Row>
-              <Col sm="9" align="center" class="end">
-                <p>2015 - 2022 Renohub. +64212223344. Powered by Web Genius. Page: Home Staging Auckland | Staging a House for Sale West Auckland - Last updated: 18th January, 2022 Site Map | Links to other quality businesses.</p>
+            <Row><Col lg="4"></Col>
+              <Col sm="9" lg="4"class="end">
+                <pre/>
+                       <p className="ft-se">     <pre>                   2015-2022 Renohub.+64212223344.Powered by Web Genius.<br/> 
+                                                           Page:Home Staging Auckland|Staging a House for Sale West Auckland-Last updated:18th January,2022  <br/>
+                                              <pre>                                Site Map|Links to other quality businesses.</pre>   </pre></p> 
               </Col>
-            <Col  sm="3" align="center" className='social-media'>
-            <img  src={facebook} alt="width:100%" className="img-fluid" />
-            <img  src={twitter} alt="width:100%" className="img-fluid" />
-            <img  src={youtube} alt="width:100%" className="img-fluid" />
-            <img  src={linkedin} alt="width:100%" className="img-fluid" />
+            <Col  sm="3" lg="4.5" align="right" className='social-media'>
+                   <img  src={facebook} alt="width:100%" className="fb-img" />
+                   <img  src={twitter} alt="width:100%" className="fb-img" />
+                   <img  src={youtube} alt="width:100%" className="fb-img" />
+                   <img  src={linkedin} alt="width:100%" className="fb-img" />
             </Col>
             
-          </Row>
-          
+          </Row> 
         </div>
 </footer>
 

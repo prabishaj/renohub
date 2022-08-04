@@ -3,27 +3,45 @@ import Styled from "styled-components";
 // import codeTesting from "../../../assets/images/login/codeTesting.svg";
 
 const LandingWrap = Styled.div`
-.container-fluid {
-  width: 100%;
-  padding: 0px;
-  padding-right: 0px;
-  overflow: hidden;
+.logo1{
+  width: 229px;
+  height: 215px
+  background: transparent url('img/Group 78.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
-.services {
-  text-align: center;
+.call{
+  display:flex;
+  justify-content:flex-end;
+}
+.pokeno{
+  font-weight:600;
+  font: normal normal normal 24px/30px ;
+  letter-spacing: 0px;
+  color: #191919;
+  opacity: 1
+}
+.pokeno1{
+  font-weight:600;
+ font: normal normal normal 22px/27px;
+ letter-spacing: 0px;
+ color: #1A1A1A;
+opacity: 1;
+}
+.renovation{
+  font-weight:600;
+  font: normal normal normal 24px/30px ;
+  letter-spacing: 0px;
+  color: #191919;
+  opacity: 1;
 }
 .frame {
-  width: 100px;
-  height: 100px;
+  width: 118px;
+  height: 118px;
   border: 3px solid #0000004F;
-  border-radius: 50%;
+  border-radius: 59px;
   background: #fff;
   margin: auto;
   padding: 20px 20px;
-}
-box-img {
-  width: 100%;
-  height: 100%;
 }
 .frame1 {
   width: 150px;
@@ -34,11 +52,104 @@ box-img {
   margin: auto;
   padding: 10px 20px;
 }
-
-box-img {
-  width: 100%;
-  height: 100%;
+.orange{
+    color: #000;
+    font-size: 20px;
+    margin-top: 17px;
+    font-weight:bold;
 }
+.black{
+  font-size: 15px;
+  margin-top: 17px;
+  font-weight:normal;
+}
+.space{
+  margin-right:5px;
+}
+.staging{
+  display:flex;
+}
+.paint{
+  width:4%;
+}
+.image1 {
+  border-top: 3px solid #FD8524;
+  padding: 0px;
+ width: 100%;
+ position: relative;
+ height: 100%;
+  }
+  .text-block {
+              position: absolute;
+              top: 0px;
+              bottom: 0px;
+              left: 20px;
+              left: 10px;
+              width:57%;
+             background-color: black;
+              opacity:0.75;
+              color: white;
+              padding: 6px;
+             padding-left: 20px;
+             padding-right: 0px;
+}
+.hall {
+    color: white;
+    font-size:49px;
+    font-weight:bold;
+    letter-spacing: 0px
+  }
+  .kitchen{
+    text-align: left;
+    font-size:27px;
+    font-weight:normal;
+    letter-spacing: 0px;
+     color: #FFFFFF;
+    opacity: 1;
+  }
+
+.container-fluid {
+  width: 100%;
+  padding: 0px;
+  padding-right: 0px;
+  overflow: hidden;
+}
+.sect{
+  margin-top:50px;
+}
+pre{
+  margin-bottom:0;
+}
+.end {
+  display:flex;
+  justify-content:center;
+  height:71px;
+ }
+.fb-img{
+  padding-top: 2px;
+  width: 37px;
+  margin-right:10px;
+  margin-top:10px;
+}
+.ft-se
+{
+  font-size:10px;
+  color:#707070;
+}
+.services {
+  text-align: center;
+}
+
+// box-img {
+//   width: 100%;
+//   height: 100%;
+// }
+
+
+// box-img {
+//   width: 100%;
+//   height: 100%;
+// }
 box-img1 {
   width: 100%;
   height: 100%;
@@ -80,7 +191,7 @@ box-img1 {
 }
 .banner-section {
   width: 100%;
-  padding: 90px 0px 50px ;
+  padding: 50px 0px 50px ;
   margin-bottom: 0px;
   position: relative;
        h2 {
@@ -95,48 +206,26 @@ box-img1 {
           }
       .home {
             text-align: center;
-            font: normal normal bold 20px/25px Amazon Ember;
+            font: normal normal 600 20px/25px ;
             letter-spacing: 0px;
             color: #FD8524;
             opacity: 1;
              }
-      .image1 {
-            border-top: 3px solid #FD8524;
-            padding: 0px;
-           width: 100%;
-           position: relative;
-           height: 100%;
-            }
+     
       }
-      .text-block {
-             position: absolute;
-             top: 0px;
-             bottom: 0px;
-             left: 20px;
-             left: 10px;
-             right: 650px;
-             background-color: black;
-             opacity: 75%;
-             color: white;
-             padding: 6px;
-             padding-left: 20px;
-             padding-right: 0px;
+     
       
-                h1 {
-                    font: normal normal bold 50px/70px Amazon Ember;
-                    color: white;
-                     opacity: 1;
-                    }
-                p {
-                    font-size: 20px;
-                   }
+                
+                // p {
+                //     font-size: 20px;
+                //    }
                 }
 .first {
-  text-align: center;
-  font: normal normal bold 24px/30px Amazon Ember;
-  letter-spacing: 0px;
-  color: #262525;
-  opacity: 1;
+    text-align: center;
+    font: normal normal bold 24px/30px Amazon Ember;
+    letter-spacing: 0px;
+    color: #262525;
+    opacity: 1;
    }
 .text-block1 {
       position: absolute;
@@ -151,7 +240,7 @@ box-img1 {
       padding: 2px;
       height: 100%;
       padding-left: 30px;
-      padding-right: 20px; 
+      padding-right: 20px; }
        .Form {
           position:;
           right: 0;
@@ -242,11 +331,10 @@ Container-margin {
          padding-right: 0px;
          background: #EEEEEE ;
          opacity: 1;
-         width: 100%;
+         width:100%;
+         height:60%;   
 }
-h3:hover {
-         font-weight: bold;
-}
+
 .img-fluid1 {
               width: 50px;
               padding: 10px;
@@ -289,7 +377,8 @@ h3:hover {
           }
         }
       .end {
-            text-align: right;
+           display:flex;
+           justify-content:center;
           }
 @media (min-width: 1400px)
 { 
@@ -297,6 +386,7 @@ h3:hover {
               .img-fluid {
                          display: inline-block;
                           width: 15%;
+                          text-align:left;
                          }
                }
 }
@@ -310,9 +400,9 @@ h3:hover {
                          color: white;
                         opacity: 1;
                      }
-                   p {
-                        font-size: 15px;
-                     }
+                  //  p {
+                  //       font-size: 15px;
+                  //    }
                }
 }
  @media  (min-width:720px) and (max-width: 1200px)
@@ -427,6 +517,13 @@ h3:hover {
         opacity: 1; 
         }
  }
+ @media (max-width:430px)
+{
+  .call{
+    display:flex;
+    justify-content: space-around;
+  }
+}
 `;
 
 export default LandingWrap;

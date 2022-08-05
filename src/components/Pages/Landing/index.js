@@ -59,8 +59,9 @@ export const Landing = () => {
               <p className='pokeno1' > Call us on: 1234567879</p>
               </Col>
               </Row>
+              <br/>
               <Row>
-                <Col lg="12" className='call'>
+                <Col lg="12" md="12" sm="12" className='call'>
                       <p className='renovation'>For all your renovation, maintenance, home staging, real estate sales and marketing needs<br/> Finance available - no deposit, no payments finance available to cover the complete project</p>
                 </Col>
               </Row>
@@ -106,7 +107,7 @@ export const Landing = () => {
                 <p className='mb-0 text-center black'>MARKETING FEES</p>
               </Col>
               {/* 5th box end */}
-              <Col className='finance space' type="submit">
+              <Col  className='finance space' type="submit">
               <div class="frame">
                 <div className='mx-auto mb-1 mt-1 text-center box-img'><img className="img-fluid" src={finance} alt=" Finance" /></div>
                 </div>
@@ -132,21 +133,22 @@ export const Landing = () => {
               </div>
           <Row>
           <div class="image1">
-          <div class=" text-left  bg-img">
-              <img  src={img1} alt="" className="img-fluid" />
-              <div class="text-block">
+             {/* <div class=" text-left  bg-img ">
+         </div> */}
+              {/* <img  src={img1} alt="" className="img-fluid" />  */}
+               <div class="text-block" >
                 <Row>
-                  <Col lg="12">
-                <p className='hall'>RENOHUB IS ALL YOU NEED FOR YOUR KITCHEN, BATHROOM AND FULL HOME RENOVATION</p>
-                </Col>
-                <Col lg="12">
-                <p className='kitchen'>Whether you are looking to update your kitchen, revitalise your outdoor area, or a complete house makeover we provide comprehensive renovation services from Pokeno to Puhoi. And if you are one of the many renovating to sell we also offer no deposit finance options to fund any upgrades or costs associated with listing, including home-staging, real estate sales marketing fees and valuations.</p>
-                </Col>
-                </Row>
-                <button variant="secondary" class="btn">Read more</button>
-               
+                    <Col sm="12" lg="12">
+                            <p className='hall'>RENOHUB IS ALL YOU NEED<br/> FOR YOUR KITCHEN, BATHROOM <br/> AND FULL HOME RENOVATION</p>
+                    </Col>
+                    <Col lg="12">
+                           <p className='kitchen'>Whether you are looking to update your kitchen, revitalise your outdoor<br/> area, or a complete house makeover we provide comprehensive renovation <br/> services from Pokeno to Puhoi. And if you are one of the many renovating <br/>to sell we also offer no deposit finance options to fund any upgrades or<br/> costs associated with listing, including home-staging, real estate sales<br/> marketing fees and valuations.</p>
+                    </Col>
+                 </Row>
+                           <button variant="secondary" class="btn">Read more</button>
               </div>
-              </div>
+              
+              
             </div>
             </Row>
          <br></br>
@@ -373,13 +375,13 @@ export const Landing = () => {
             </div>
             
             <Row><Col lg="4"></Col>
-              <Col sm="9" lg="4"class="end">
-                <pre/>
+              <Col sm="9" lg="5"class="end msg">
+               
                        <p className="ft-se">     <pre>                   2015-2022 Renohub.+64212223344.Powered by Web Genius.<br/> 
                                                            Page:Home Staging Auckland|Staging a House for Sale West Auckland-Last updated:18th January,2022  <br/>
-                                              <pre>                                Site Map|Links to other quality businesses.</pre>   </pre></p> 
+                                                 <pre>                           Site Map|Links to other quality businesses.</pre>   </pre></p> 
               </Col>
-            <Col  sm="3" lg="4.5" align="right" className='social-media'>
+            <Col  sm="3" lg="3" align="right" className='social-media'>
                    <img  src={facebook} alt="width:100%" className="fb-img" />
                    <img  src={twitter} alt="width:100%" className="fb-img" />
                    <img  src={youtube} alt="width:100%" className="fb-img" />
@@ -393,6 +395,7 @@ export const Landing = () => {
       
         </div>
       </div>
+      <img1/>
 </Container>
     </LandingWrap>
   )

@@ -1,17 +1,20 @@
 import Styled from "styled-components";
-
+import img1 from "../../../assets/images/landing/Image 1@2x.png";
 // import codeTesting from "../../../assets/images/login/codeTesting.svg";
-
 const LandingWrap = Styled.div`
 .logo1{
-  width: 229px;
-  height: 215px
-  background: transparent url('img/Group 78.png') 0% 0% no-repeat padding-box;
-  opacity: 1;
+        width: 229px;
+        height: 215px
+        background: transparent url('img/Group 78.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
 }
 .call{
-  display:flex;
-  justify-content:flex-end;
+      display:flex;
+     justify-content:flex-end;
+}
+.msg{
+     display:flex;
+     justify-content:center;
 }
 .pokeno{
   font-weight:600;
@@ -59,55 +62,67 @@ opacity: 1;
     font-weight:bold;
 }
 .black{
-  font-size: 15px;
-  margin-top: 17px;
-  font-weight:normal;
+       font-size: 15px;
+       margin-top: 17px;
+       font-weight:normal;
 }
 .space{
-  margin-right:5px;
+       margin-right:5px;
 }
 .staging{
-  display:flex;
+         display:flex;
 }
 .paint{
-  width:4%;
+        width:4%;
 }
 .image1 {
-  border-top: 3px solid #FD8524;
-  padding: 0px;
- width: 100%;
- position: relative;
- height: 100%;
-  }
-  .text-block {
-              position: absolute;
+         border-top: 3px solid #FD8524;
+         padding: 0px;
+         width: 100%;
+         position: relative;
+         height: 100%;
+}
+.text-block {
               top: 0px;
               bottom: 0px;
               left: 20px;
               left: 10px;
-              width:57%;
-             background-color: black;
+              width:58%;
+              height:100%;
+              background-color:black;
               opacity:0.75;
-              color: white;
               padding: 6px;
-             padding-left: 20px;
-             padding-right: 0px;
+              padding-left: 20px;
+              padding-right: 0px;          
+}
+.test{
+  padding:20px;
+  margin:20px;
 }
 .hall {
-    color: white;
-    font-size:49px;
-    font-weight:bold;
-    letter-spacing: 0px
+       color:white;
+       font-size:49px;
+       font-weight:bold;
+       letter-spacing: 0px
   }
   .kitchen{
     text-align: left;
     font-size:27px;
     font-weight:normal;
     letter-spacing: 0px;
-     color: #FFFFFF;
+     color:white;
     opacity: 1;
   }
-
+  .room{
+    width:100%;
+    height:100%;
+    position:inherit;
+    color:red;
+    opacity:1;
+  }
+pre{
+    font-size:10px;
+}
 .container-fluid {
   width: 100%;
   padding: 0px;
@@ -331,8 +346,7 @@ Container-margin {
          padding-right: 0px;
          background: #EEEEEE ;
          opacity: 1;
-         width:100%;
-         height:60%;   
+          
 }
 
 .img-fluid1 {

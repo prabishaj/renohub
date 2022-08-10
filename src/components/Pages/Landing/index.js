@@ -44,7 +44,7 @@ export const Landing = () => {
     <LandingWrap>
         <Container fluid>
            <div className="renohub-landing-page">
-              <div className='banner-section bg-white float-center'>
+              <div className='banner-section  float-center'>
                 <Row> 
                      <Col sm="3" classname="logo">
                             <div className='mx-auto mb-1 mt-1 text-center'>
@@ -459,8 +459,8 @@ export const Landing = () => {
             <br></br>
             </div>
             
-                <Row><Col lg="4"></Col>
-                         <Col sm="12" lg="5"class="end msg">              
+                <Row><Col lg="4"  md="3"></Col>
+                         <Col sm="12" lg="5" md="12" class="end msg">              
                                <p className="ft-se">     <pre>                   2015-2022 Renohub.+64212223344.Powered by Web Genius.<br/> 
                                                                Page:Home Staging Auckland|Staging a House for Sale West Auckland-Last updated:18th January,2022  <br/>
                                                     <pre>                          Site Map|Links to other quality businesses.</pre>   </pre></p> 

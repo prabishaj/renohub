@@ -127,13 +127,13 @@ const LandingWrap = Styled.div`
 }
 .hall {
        color:white;
-       font-size:40px;
+       font-size:46px;
        font-weight:bold;
        letter-spacing: 0px
   }
   .kitchen{
            text-align: left;
-           font-size:20px;
+           font-size:23px;
            font-weight:normal;
            letter-spacing: 0px;
            color:white;
@@ -257,7 +257,6 @@ input{
    }
 
    .detail {
-    width: 392px;
     height: 316px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
@@ -547,22 +546,22 @@ Container-margin {
 //         opacity: 1; 
 //         }
 //  }
- @media (min-width:120px) and (max-width:425px)
+ @media  (max-width:426px)
 {
   .call{
     display:flex;
     justify-content: space-around;
   }
-}
+
 pre{
-  font-size:10px;
+  font-size:5px;
 }
 .text-block {
   top: 0px;
   bottom: 0px;
   left: 20px;
   left: 10px;
-  width:58%;
+  width:100%;
   height:100%;
   background: transparent url(img/Image 1@2x.png) 0% 0% no-repeat padding-box;
   mix-blend-mode: multiply;
@@ -571,6 +570,27 @@ pre{
   padding: 6px;
   padding-left: 20px;
   padding-right: 0px;
+}
+.service{
+  font-size:50px; 
+}
+.hall {
+  color:white;
+  font-size:40px;
+  font-weight:bold;
+  letter-spacing: 0px
+}
+.kitchen{
+      text-align: left;
+      font-size:18px;
+      font-weight:normal;
+      letter-spacing: 0px;
+      color:white;
+      opacity: 1;
+}
+.one-step {
+  font-weight: normal;
+  font-size: 20px;}
 }
 `;
 

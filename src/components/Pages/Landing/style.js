@@ -1,5 +1,6 @@
 import Styled from "styled-components";
 import img1 from "../../../assets/images/landing/Image 1@2x.png";
+import img2 from '../../../assets/images/landing/Image 2@2x.png';
 // import codeTesting from "../../../assets/images/login/codeTesting.svg";
 const LandingWrap = Styled.div`
 .logo1{
@@ -112,7 +113,7 @@ const LandingWrap = Styled.div`
               left: 10px;
               width:58%;
               height:100%;
-              background: transparent url('img/Image 1@2x.png') 0% 0% no-repeat padding-box;
+              background-image: url(${img1});
               mix-blend-mode: multiply;
               background-color:black;
               opacity:0.75;
